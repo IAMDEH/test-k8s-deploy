@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+- ../base
+
+patchesStrategicMerge:
+- ./deployment-patch.yaml
+
+images:
+- name: 10.10.10.16:5000/test
+  newTag: 21bf3b174f58a6dbae5b8c9bf54248d0d1d9c79e
