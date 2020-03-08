@@ -9,4 +9,4 @@ patchesStrategicMerge:
 
 images:
 - name: 10.10.10.18:5000/test
-  newTag: 763c2c8ae5c43e10bacede88b41426c72f373cb4
+  newTag: dca15ed6d62600ed34fb13f3769ca699476e0824
